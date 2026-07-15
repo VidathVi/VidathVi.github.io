@@ -206,7 +206,9 @@ function App() {
 
               <div className="flex gap-4 pt-2 items-center">
                 <a 
-                  href="#" 
+                  href="https://github.com/VidathVi" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
                   title="GitHub"
                 >
@@ -215,7 +217,9 @@ function App() {
                   </svg>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/vidathdassanayake" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
                   title="LinkedIn"
                 >

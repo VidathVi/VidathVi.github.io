@@ -77,7 +77,9 @@ export default function Bio() {
               </a>
               
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/vidathdassanayake" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-700 hover:text-gray-900 border border-transparent hover:border-gray-300 hover:bg-gray-50 px-3 py-2 rounded-lg transition-all text-sm font-medium group"
               >
                 <img src="/linkedin-icon.png" alt="LinkedIn" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
