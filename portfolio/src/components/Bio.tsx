@@ -44,7 +44,7 @@ export default function Bio() {
             <div className="flex gap-3 pt-2 items-center">
               <div className="flex items-center gap-1">
                 <a 
-                  href="/resume.pdf" 
+                  href="/CV.pdf" 
                   download="Vidath_Dassanayake_Resume.pdf"
                   className="flex items-center gap-2 bg-[#284bbe] text-white px-4 py-2 rounded-lg hover:bg-[#1e3995] transition-colors text-sm font-medium shadow-xs"
                 >
@@ -55,7 +55,7 @@ export default function Bio() {
                 </a>
 
                 <a 
-                  href="/resume.pdf" 
+                  href="/CV.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#284bbe] p-1.5 transition-colors"
