@@ -26,7 +26,7 @@ export default function Bio() {
 
           {/* Profile Picture — mobile only, shown below description */}
           <div className="relative flex-shrink-0 md:hidden self-center mx-auto">
-            <div className="absolute top-1.5 left-2 w-56 h-56 bg-[#284bbe] z-0" />
+            <div className="absolute top-1.5 left-1 w-56 h-56 bg-[#284bbe] z-0" />
             <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
               <img 
                 src="/profile.png" 
