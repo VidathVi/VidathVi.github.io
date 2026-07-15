@@ -11,7 +11,7 @@ export default function Bio() {
 
   return (
     <div className="space-y-8">
-      <section id="bio" className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center pt-4 md:pt-12">
+      <section id="bio" className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center pt-1 md:pt-12">
         {/* Name block — on mobile: order 1, on desktop: part of the left column */}
         <div className="flex-1 space-y-4 order-1 md:order-none">
           <div className="space-y-1">
@@ -19,9 +19,14 @@ export default function Bio() {
             <h1 className="text-5xl font-extrabold text-white tracking-tight">Vidath Dassanayake</h1>
           </div>
 
-          {/* Profile Picture — mobile only, shown between name and tagline */}
+          <h2 className="text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
+          <p className="text-white/80 leading-relaxed max-w-2xl">
+            DevOps & Cloud Engineer specializing in secure containerization, and zero-downtime CI/CD pipelines.
+          </p>
+
+          {/* Profile Picture — mobile only, shown below description */}
           <div className="relative flex-shrink-0 md:hidden self-center mx-auto">
-            <div className="absolute inset-0 translate-x-3 translate-y-3 bg-[#284bbe] z-0" />
+            <div className="absolute inset-0 translate-x-2 translate-y-2 bg-[#284bbe] z-0" />
             <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
               <img 
                 src="/profile.png" 
@@ -30,11 +35,6 @@ export default function Bio() {
               />
             </div>
           </div>
-
-          <h2 className="text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
-          <p className="text-white/80 leading-relaxed max-w-2xl">
-            DevOps & Cloud Engineer specializing in secure containerization, and zero-downtime CI/CD pipelines.
-          </p>
           <div className="pt-4 space-y-2.5 text-base text-white/80">
             <p className="flex items-center gap-2">
               <svg className="w-5 h-5 flex-shrink-0 text-white" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
