@@ -6,7 +6,12 @@ export default function Navbar({ currentProject }: NavbarProps) {
   if (currentProject) {
     return (
       <div className="flex flex-row md:flex-col items-center justify-around md:justify-start py-2 md:py-10 px-2 space-y-0 md:space-y-4 h-full text-gray-500 w-full overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-        <a href="#" className="hidden md:block font-bold text-xl text-gray-800 border-b-2 border-gray-800 pb-1 mb-4 hover:text-[#284bbe] hover:border-[#284bbe] transition-colors">VD</a>
+        <a 
+          href="#" 
+          className="hidden md:flex font-black text-lg text-[#284bbe] border-2 border-[#284bbe] rounded-full w-12 h-12 items-center justify-center hover:bg-[#284bbe] hover:text-white transition-all mb-4 tracking-tighter shrink-0"
+        >
+          VD
+        </a>
         
         <span className="hidden md:block text-[11px] font-bold text-gray-500 uppercase tracking-widest py-2 text-center">Projects</span>
         
@@ -46,26 +51,38 @@ export default function Navbar({ currentProject }: NavbarProps) {
 
   return (
     <div className="flex flex-row md:flex-col items-center justify-around md:justify-start py-2 md:py-10 space-y-0 md:space-y-8 h-full text-gray-500 w-full overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] px-2">
-      <a href="#" className="hidden md:block font-bold text-xl text-gray-800 border-b-2 border-gray-800 pb-1 hover:text-[#284bbe] hover:border-[#284bbe] transition-colors shrink-0">VD</a>
+      <a 
+        href="#" 
+        className="hidden md:flex font-black text-lg text-[#284bbe] border-2 border-[#284bbe] rounded-full w-12 h-12 items-center justify-center hover:bg-[#284bbe] hover:text-white transition-all tracking-tighter shrink-0"
+      >
+        VD
+      </a>
       
       <a href="#bio" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
-        <img src="/bio-icon.png" alt="Bio" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+        <img src="/bio-icon.png" alt="Bio" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-85 group-hover:opacity-100 transition-opacity" />
         <span>Bio</span>
       </a>
       
       <a href="#projects" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
-        <img src="/projects-icon.png" alt="Projects" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+        <img src="/projects-icon.png" alt="Projects" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-85 group-hover:opacity-100 transition-opacity" />
         <span>Projects</span>
       </a>
       
       <a href="#skills" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
-        <img src="/skills-icon.png" alt="Skills" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+        <img src="/skills-icon.png" alt="Skills" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-85 group-hover:opacity-100 transition-opacity" />
         <span>Skills</span>
       </a>
       
       <a href="#education" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
-        <img src="/education-icon.png" alt="Education" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+        <img src="/education-icon.png" alt="Education" className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-85 group-hover:opacity-100 transition-opacity" />
         <span>Education</span>
+      </a>
+
+      <a href="#about" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
+        <svg className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-85 group-hover:opacity-100 transition-opacity fill-current text-[#284bbe]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
+        </svg>
+        <span>About</span>
       </a>
     </div>
   );

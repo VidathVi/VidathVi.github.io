@@ -4,6 +4,7 @@ import Bio from './components/Bio';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import About from './components/About';
 import GeoEngine from './components/GeoEngine';
 import OreanStudio from './components/OreanStudio';
 import Arcade3D from './components/Arcade3D';
@@ -120,13 +121,14 @@ function App() {
             <Projects />
             <Skills />
             <Education />
+            <About />
           </div>
         );
     }
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-[#284bbe] text-white font-sans">
+    <div className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-[#284bbe] to-[#132560] text-white font-sans">
       
       {/* Navigation */}
       <div className="w-full fixed bottom-0 left-0 md:top-0 md:bottom-auto md:w-32 md:h-full bg-white z-50 md:border-r border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] md:shadow-none">
@@ -145,7 +147,7 @@ function App() {
         </div>
         
         {/* Footer */}
-        <footer className="bg-[#284bbe] text-white py-8 px-6 md:py-12 md:px-8 text-sm">
+        <footer className="bg-[#172d73] text-white py-8 px-6 md:py-12 md:px-8 text-sm">
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-white/20 pb-8 mb-6">
             
             {/* Left Column: Copyright & Status */}
@@ -197,12 +199,27 @@ function App() {
                 Connect & Contact
               </div>
               
-              <button 
-                onClick={handleCopyEmail}
-                className="bg-white text-[#284bbe] px-4 py-2 rounded-lg font-semibold hover:bg-white/90 transition-all text-xs shadow-xs w-fit block text-center focus:outline-hidden"
-              >
-                {copiedEmail ? 'Email Copied!' : 'Contact Me: hello@vidathdassanayake.me'}
-              </button>
+              <div className="flex gap-2 items-center w-full md:justify-end">
+                <a 
+                  href="mailto:hello@vidathdassanayake.me"
+                  className="bg-white text-[#284bbe] px-4 py-2 rounded-lg font-semibold hover:bg-white/90 transition-all text-xs shadow-xs text-center inline-block whitespace-nowrap"
+                >
+                  Contact Me: hello@vidathdassanayake.me
+                </a>
+                <button 
+                  onClick={handleCopyEmail}
+                  className="bg-white/10 hover:bg-white/20 text-white p-2 rounded-lg transition-all shadow-xs flex items-center justify-center shrink-0 focus:outline-hidden h-[32px] w-[32px]"
+                  title="Copy email to clipboard"
+                >
+                  {copiedEmail ? (
+                    <span className="text-[10px] text-green-300 font-bold">✓</span>
+                  ) : (
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                    </svg>
+                  )}
+                </button>
+              </div>
 
               <div className="flex gap-4 pt-2 items-center">
                 <a 

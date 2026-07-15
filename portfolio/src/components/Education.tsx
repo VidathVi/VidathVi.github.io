@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <section id="education" className="space-y-6 pt-16 pb-24 border-t border-white/20">
+    <section id="education" className="space-y-6 pt-16 border-t border-white/20">
       <h3 className="text-2xl font-bold text-white">Education</h3>
       <div className="space-y-4">
         {/* IIT */}
