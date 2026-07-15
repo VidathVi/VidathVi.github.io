@@ -126,10 +126,10 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-gray-100 text-gray-900 font-sans">
+    <div className="flex flex-col md:flex-row min-h-screen bg-[#284bbe] text-white font-sans">
       
       {/* Navigation */}
-      <div className="w-full fixed bottom-0 left-0 md:top-0 md:bottom-auto md:w-32 md:h-full bg-gray-200 z-50 md:border-r border-gray-300 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] md:shadow-none">
+      <div className="w-full fixed bottom-0 left-0 md:top-0 md:bottom-auto md:w-32 md:h-full bg-white z-50 md:border-r border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] md:shadow-none">
         <Navbar currentProject={currentProject} />
       </div>
 

@@ -14,22 +14,22 @@ export default function Bio() {
       <section id="bio" className="flex flex-col md:flex-row gap-8 items-start pt-12">
         <div className="flex-1 space-y-4">
           <div className="space-y-1">
-            <span className="text-lg text-[#db2777] font-medium block">Hi, my name is</span>
-            <h1 className="text-5xl font-bold text-[#284bbe] tracking-tight">Vidath Dassanayake</h1>
+            <span className="text-lg text-white font-medium block">Hi, my name is</span>
+            <h1 className="text-5xl font-bold text-white tracking-tight">Vidath Dassanayake</h1>
           </div>
-          <h2 className="text-2xl text-[#1e3a8a] font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
-          <p className="text-black leading-relaxed max-w-2xl">
+          <h2 className="text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
+          <p className="text-white/90 leading-relaxed max-w-2xl">
             DevOps & Cloud Engineer specializing in secure containerization, and zero-downtime CI/CD pipelines.
           </p>
-          <div className="pt-4 space-y-2.5 text-base text-black">
+          <div className="pt-4 space-y-2.5 text-base text-white/90">
             <p className="flex items-center gap-2">
               <img src="/mail-icon.png" alt="Email" className="w-5 h-5 object-contain flex-shrink-0" />
-              <a href="mailto:hello@vidathdassanayake.me" className="hover:underline hover:text-[#284bbe] transition-colors font-medium">
+              <a href="mailto:hello@vidathdassanayake.me" className="hover:underline hover:text-white transition-colors font-medium">
                 hello@vidathdassanayake.me
               </a>
               <button 
                 onClick={handleCopy}
-                className="ml-1 p-1.5 text-gray-400 hover:text-[#284bbe] rounded-md transition-colors duration-200 focus:outline-hidden"
+                className="ml-1 p-1.5 text-white/60 hover:text-white rounded-md transition-colors duration-200 focus:outline-hidden"
                 title="Copy email to clipboard"
               >
                 {copied ? (
@@ -46,7 +46,7 @@ export default function Bio() {
                 <a 
                   href="/CV.pdf" 
                   download="Vidath_Dassanayake_Resume.pdf"
-                  className="flex items-center gap-2 bg-[#284bbe] text-white px-4 py-2 rounded-lg hover:bg-[#1e3995] transition-colors text-sm font-medium shadow-xs"
+                  className="flex items-center gap-2 bg-white text-[#284bbe] px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors text-sm font-bold shadow-xs"
                 >
                   <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"></path>
@@ -58,7 +58,7 @@ export default function Bio() {
                   href="/CV.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-[#284bbe] p-1.5 transition-colors"
+                  className="text-white/60 hover:text-white p-1.5 transition-colors"
                   title="View Resume in new tab"
                 >
                   <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@ export default function Bio() {
                 href="https://github.com/VidathVi" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-700 hover:text-gray-900 border border-transparent hover:border-gray-300 hover:bg-gray-50 px-3 py-2 rounded-lg transition-all text-sm font-medium group"
+                className="flex items-center gap-2 text-white/90 hover:text-white border border-transparent hover:border-white/30 hover:bg-white/10 px-3 py-2 rounded-lg transition-all text-sm font-medium group"
               >
                 <img src="/github-icon.png" alt="GitHub" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
                 <span>GitHub</span>
@@ -80,7 +80,7 @@ export default function Bio() {
                 href="https://www.linkedin.com/in/vidathdassanayake" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-700 hover:text-gray-900 border border-transparent hover:border-gray-300 hover:bg-gray-50 px-3 py-2 rounded-lg transition-all text-sm font-medium group"
+                className="flex items-center gap-2 text-white/90 hover:text-white border border-transparent hover:border-white/30 hover:bg-white/10 px-3 py-2 rounded-lg transition-all text-sm font-medium group"
               >
                 <img src="/linkedin-icon.png" alt="LinkedIn" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
                 <span>LinkedIn</span>
@@ -112,9 +112,9 @@ export default function Bio() {
       </section>
 
       {/* Connected About Me section */}
-      <div id="about" className="pt-8 border-t border-gray-200 space-y-4">
-        <h3 className="text-xl font-bold text-[#284bbe]">About Me</h3>
-        <div className="text-black text-sm md:text-base leading-relaxed">
+      <div id="about" className="pt-8 border-t border-white/20 space-y-4">
+        <h3 className="text-xl font-bold text-white">About Me</h3>
+        <div className="text-white/90 text-sm md:text-base leading-relaxed">
           <p>
             I am a DevOps-focused software developer currently studying computer science at the Informatics Institute of Technology(IIT). I design production-ready setups using Docker, Kubernetes, and Terraform. My practical experience includes implementing background worker queues that scale-to-zero using BullMQ, Redis and KEDA autoscaling and deploying optimized container builds that slash image sizes through multi-stage builds. In addition to DevOps and cloud infrastructure, I have a strong interest in 3D animation and Game development, and I have experience with Blender, Unity, and unreal engine 5
           </p>
