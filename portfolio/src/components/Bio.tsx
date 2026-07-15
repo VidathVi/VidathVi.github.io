@@ -11,7 +11,7 @@ export default function Bio() {
 
   return (
     <div className="space-y-8">
-      <section id="bio" className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center pt-0 md:pt-12">
+      <section id="bio" className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center -mt-2 md:mt-0 md:pt-12">
         {/* Name block — on mobile: order 1, on desktop: part of the left column */}
         <div className="flex-1 space-y-4 order-1 md:order-none">
           <div className="space-y-1">
@@ -26,7 +26,7 @@ export default function Bio() {
 
           {/* Profile Picture — mobile only, shown below description */}
           <div className="relative flex-shrink-0 md:hidden self-center mx-auto">
-            <div className="absolute top-2 right-[-6px] w-44 h-56 bg-[#284bbe] z-0" />
+            <div className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-[#284bbe] z-0" />
             <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
               <img 
                 src="/profile.png" 
