@@ -11,23 +11,23 @@ export default function Bio() {
 
   return (
     <div className="space-y-8">
-      <section id="bio" className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center -mt-2 md:mt-0 md:pt-12">
+      <section id="bio" className="flex flex-col md:flex-row gap-3 md:gap-8 items-start md:items-center -mt-2 md:mt-0 md:pt-12">
         {/* Name block — on mobile: order 1, on desktop: part of the left column */}
-        <div className="flex-1 space-y-4 order-1 md:order-none">
+        <div className="flex-1 space-y-2 md:space-y-4 order-1 md:order-none">
           <div className="space-y-1">
             <span className="text-lg text-white/60 font-medium block">Hi, my name is</span>
             <h1 className="text-5xl font-extrabold text-white tracking-tight">Vidath Dassanayake</h1>
           </div>
 
-          <h2 className="text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
-          <p className="text-white/80 leading-relaxed max-w-2xl">
+          <h2 className="text-xl md:text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
+          <p className="text-sm md:text-base text-white/80 leading-relaxed max-w-2xl">
             DevOps & Cloud Engineer specializing in secure containerization, and zero-downtime CI/CD pipelines.
           </p>
 
           {/* Profile Picture — mobile only, shown below description */}
           <div className="relative flex-shrink-0 md:hidden self-center mx-auto">
-            <div className="absolute top-1.5 left-1 w-56 h-56 bg-[#284bbe] z-0" />
-            <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
+            <div className="absolute top-1.5 left-1 w-44 h-44 bg-[#284bbe] z-0" />
+            <div className="relative w-44 h-44 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
               <img 
                 src="/profile.png" 
                 alt="Vidath Dassanayake" 
@@ -35,7 +35,7 @@ export default function Bio() {
               />
             </div>
           </div>
-          <div className="pt-4 space-y-2.5 text-base text-white/80">
+          <div className="pt-1 md:pt-4 space-y-2 md:space-y-2.5 text-sm md:text-base text-white/80">
             <p className="flex items-center gap-2">
               <svg className="w-5 h-5 flex-shrink-0 text-white" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>
