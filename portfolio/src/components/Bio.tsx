@@ -11,12 +11,25 @@ export default function Bio() {
 
   return (
     <div className="space-y-8">
-      <section id="bio" className="flex flex-col md:flex-row gap-8 items-start md:items-center pt-12">
+      <section id="bio" className="flex flex-col md:flex-row gap-8 items-start md:items-center pt-4 md:pt-12">
         <div className="flex-1 space-y-4">
           <div className="space-y-1">
             <span className="text-lg text-white/60 font-medium block">Hi, my name is</span>
             <h1 className="text-5xl font-extrabold text-white tracking-tight">Vidath Dassanayake</h1>
           </div>
+
+          {/* Profile Picture (Mobile) */}
+          <div className="relative flex-shrink-0 md:hidden my-4 mx-auto">
+            <div className="absolute inset-0 translate-x-3 translate-y-3 bg-[#284bbe] z-0" />
+            <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
+              <img 
+                src="/profile.png" 
+                alt="Vidath Dassanayake" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
           <h2 className="text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
           <p className="text-white/80 leading-relaxed max-w-2xl">
             DevOps & Cloud Engineer specializing in secure containerization, and zero-downtime CI/CD pipelines.
@@ -108,7 +121,7 @@ export default function Bio() {
         </div>
         
         {/* Profile Picture */}
-        <div className="relative flex-shrink-0">
+        <div className="relative flex-shrink-0 hidden md:block">
           {/* Solid decorative square underneath */}
           <div className="absolute inset-0 translate-x-3 translate-y-3 bg-[#284bbe] z-0" />
           <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
