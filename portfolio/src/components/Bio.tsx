@@ -11,15 +11,16 @@ export default function Bio() {
 
   return (
     <div className="space-y-8">
-      <section id="bio" className="flex flex-col md:flex-row gap-8 items-start md:items-center pt-4 md:pt-12">
-        <div className="flex-1 space-y-4">
+      <section id="bio" className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center pt-4 md:pt-12">
+        {/* Name block — on mobile: order 1, on desktop: part of the left column */}
+        <div className="flex-1 space-y-4 order-1 md:order-none">
           <div className="space-y-1">
             <span className="text-lg text-white/60 font-medium block">Hi, my name is</span>
             <h1 className="text-5xl font-extrabold text-white tracking-tight">Vidath Dassanayake</h1>
           </div>
 
-          {/* Profile Picture (Mobile) */}
-          <div className="relative flex-shrink-0 md:hidden my-4 mx-auto">
+          {/* Profile Picture — mobile only, shown between name and tagline */}
+          <div className="relative flex-shrink-0 md:hidden self-center mx-auto">
             <div className="absolute inset-0 translate-x-3 translate-y-3 bg-[#284bbe] z-0" />
             <div className="relative w-56 h-56 bg-gray-100 rounded-none overflow-hidden shadow-xs z-10">
               <img 
@@ -120,7 +121,7 @@ export default function Bio() {
           </div>
         </div>
         
-        {/* Profile Picture */}
+        {/* Profile Picture — desktop only (right side) */}
         <div className="relative flex-shrink-0 hidden md:block">
           {/* Solid decorative square underneath */}
           <div className="absolute inset-0 translate-x-3 translate-y-3 bg-[#284bbe] z-0" />
