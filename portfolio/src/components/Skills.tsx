@@ -12,7 +12,7 @@ export default function Skills() {
               <span className="text-[#0451a5]"># Programming Languages</span>
             </div>
             <div>
-              <span className="text-black">languages</span>:
+              <span className="text-black">languages:</span>
             </div>
             <div>
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">Python</span>
@@ -39,7 +39,7 @@ export default function Skills() {
               <span className="text-[#0451a5]"># Infrastructure & CI/CD</span>
             </div>
             <div>
-              <span className="text-black">devops_cloud</span>:
+              <span className="text-black">devops_cloud:</span>
             </div>
             <div>
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">Docker</span>
@@ -63,7 +63,7 @@ export default function Skills() {
               <span className="text-[#0451a5]"># Integration & Architecture</span>
             </div>
             <div>
-              <span className="text-black">development_apis</span>:
+              <span className="text-black">development_apis:</span>
             </div>
             <div>
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">REST API</span>
