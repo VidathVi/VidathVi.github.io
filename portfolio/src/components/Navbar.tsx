@@ -73,11 +73,11 @@ export default function Navbar({ currentProject }: NavbarProps) {
         <span>Skills</span>
       </a>
       
-      <a href="#certificates" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
+      <a href="#certificates" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[9px] md:text-xs text-center group shrink-0 px-1 md:px-0">
         <svg className="w-5 h-5 md:w-8 md:h-8 object-contain opacity-85 group-hover:opacity-100 transition-opacity fill-current text-[#284bbe]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
         </svg>
-        <span>Certs</span>
+        <span>Certifications</span>
       </a>
       
       <a href="#education" className="flex flex-col items-center gap-1 hover:text-[#284bbe] transition-colors font-semibold text-[10px] md:text-base group shrink-0 px-2 md:px-0">
