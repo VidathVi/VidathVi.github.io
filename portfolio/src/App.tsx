@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Bio from './components/Bio';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Certificates from './components/Certificates';
 import Education from './components/Education';
 import About from './components/About';
 import GeoEngine from './components/GeoEngine';
@@ -36,7 +37,7 @@ function App() {
         }
       } else {
         // If it's a main section hash on initial load (like #skills)
-        const isMainSection = ['#bio', '#projects', '#skills', '#about', '#education'].includes(hash);
+        const isMainSection = ['#bio', '#projects', '#skills', '#certificates', '#about', '#education'].includes(hash);
         if (isMainSection) {
           setCurrentProject(null);
           setTimeout(() => {
@@ -61,8 +62,8 @@ function App() {
           return;
         }
 
-        // If it's a main page section link (#bio, #projects, #skills, #education)
-        const isMainSection = ['#bio', '#projects', '#skills', '#about', '#education'].includes(href);
+        // If it's a main page section link (#bio, #projects, #skills, #certificates, #education)
+        const isMainSection = ['#bio', '#projects', '#skills', '#certificates', '#about', '#education'].includes(href);
 
         if (isMainSection) {
           // If we are currently inside a project view, we need to unmount the project view
@@ -120,6 +121,7 @@ function App() {
             <Bio />
             <Projects />
             <Skills />
+            <Certificates />
             <Education />
             <About />
           </div>
@@ -176,8 +178,9 @@ function App() {
                 <a href="#bio" className="hover:underline text-white/90 hover:text-white">Bio</a>
                 <a href="#projects" className="hover:underline text-white/90 hover:text-white">Projects</a>
                 <a href="#skills" className="hover:underline text-white/90 hover:text-white">Skills</a>
-                <a href="#about" className="hover:underline text-white/90 hover:text-white">About Me</a>
+                <a href="#certificates" className="hover:underline text-white/90 hover:text-white">Certificates</a>
                 <a href="#education" className="hover:underline text-white/90 hover:text-white">Education</a>
+                <a href="#about" className="hover:underline text-white/90 hover:text-white">About Me</a>
                 <a 
                   href="#" 
                   onClick={(e) => {
