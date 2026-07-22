@@ -51,6 +51,9 @@ export default function Skills() {
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">Terraform</span>
             </div>
             <div>
+              <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">Google Cloud Platform</span>
+            </div>
+            <div>
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">CI/CD (GitHub Actions)</span>
             </div>
           </pre>

@@ -23,7 +23,7 @@ export default function Projects() {
           className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow hover:border-[#284bbe]/30 group block text-left"
         >
           <h4 className="font-bold text-lg text-gray-900 group-hover:text-[#284bbe] transition-colors">GEO Engine</h4>
-          <p className="text-xs font-mono text-[#284bbe] mb-3 mt-1">Python • PyTorch • Unsloth • Modal</p>
+          <p className="text-xs font-mono text-[#284bbe] mb-3 mt-1">Python • PyTorch • WSL2 • Docker</p>
           <p className="text-gray-600 text-sm leading-relaxed mb-4">
             An automated content generation pipeline and LLM fine-tuning system designed under zero-cost constraints.
           </p>
