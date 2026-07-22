@@ -138,14 +138,6 @@ export default function Certificates() {
                 <p className="text-xs text-gray-500">{activeCertificate.issuer} {activeCertificate.date ? `• ${activeCertificate.date}` : ''}</p>
               </div>
               <div className="flex items-center gap-2">
-                <a
-                  href={activeCertificate.fileUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1.5 bg-gray-200 hover:bg-gray-300 text-gray-800 text-xs font-semibold rounded-lg transition-colors flex items-center gap-1"
-                >
-                  Open in New Tab
-                </a>
                 <button
                   onClick={() => setActiveCertificate(null)}
                   className="p-1.5 rounded-lg text-gray-500 hover:text-gray-900 hover:bg-gray-200 transition-colors"
