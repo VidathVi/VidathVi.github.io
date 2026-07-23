@@ -13,6 +13,14 @@ interface Certificate {
 
 const certificatesData: Certificate[] = [
   {
+    id: 'bootdev-git',
+    title: 'Learn Git',
+    issuer: 'Boot.dev',
+    fileUrl: '/certificates/bootdev_git_certificate.png',
+    type: 'image',
+    skills: ['Git', 'GitHub', 'Version Control'],
+  },
+  {
     id: 'bootdev-linux',
     title: 'Learn Linux',
     issuer: 'Boot.dev',
@@ -51,7 +59,7 @@ export default function Certificates() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {certificatesData.map((cert) => (
           <div
             key={cert.id}
