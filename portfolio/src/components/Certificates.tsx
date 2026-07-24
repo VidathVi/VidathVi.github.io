@@ -37,6 +37,14 @@ const certificatesData: Certificate[] = [
     skills: ['Python', 'Object-Oriented Programming', 'Backend'],
   },
   {
+    id: 'bootdev-python-oop',
+    title: 'Learn Object Oriented Programming in Python',
+    issuer: 'Boot.dev',
+    fileUrl: '/certificates/bootdev_python_oop_certificate.png',
+    type: 'image',
+    skills: ['Python', 'OOP', 'Clean Code'],
+  },
+  {
     id: 'linkedin-react-ts',
     title: 'React: Using TypeScript',
     issuer: 'LinkedIn Learning',
