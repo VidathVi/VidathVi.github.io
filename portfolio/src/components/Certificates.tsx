@@ -29,6 +29,14 @@ const certificatesData: Certificate[] = [
     skills: ['Linux', 'Bash Shell', 'System Administration'],
   },
   {
+    id: 'bootdev-docker',
+    title: 'Learn Docker',
+    issuer: 'Boot.dev',
+    fileUrl: '/certificates/bootdev_docker_certificate.png',
+    type: 'image',
+    skills: ['Docker', 'Containers', 'DevOps'],
+  },
+  {
     id: 'bootdev-python',
     title: 'Learn Python',
     issuer: 'Boot.dev',
@@ -67,7 +75,7 @@ export default function Certificates() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {certificatesData.map((cert) => (
           <div
             key={cert.id}
