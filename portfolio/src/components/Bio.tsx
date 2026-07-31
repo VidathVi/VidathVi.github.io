@@ -60,7 +60,7 @@ export default function Bio() {
             <div className="flex gap-3 pt-2 items-center">
               <div className="flex items-center gap-1">
                 <a 
-                  href="/CV.pdf" 
+                  href="/Vidath_Dassanayake_CV.pdf" 
                   download="Vidath_Dassanayake_Resume.pdf"
                   className="flex items-center gap-2 bg-white text-[#284bbe] px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors text-sm font-bold shadow-xs"
                 >
@@ -72,7 +72,7 @@ export default function Bio() {
 
                 <div className="relative group/tooltip flex items-center">
                   <a 
-                    href="/CV.pdf" 
+                    href="/Vidath_Dassanayake_CV.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white/60 hover:text-white p-1.5 transition-colors flex items-center justify-center"
