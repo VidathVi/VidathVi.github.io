@@ -12,7 +12,7 @@ export default function Projects() {
           <h4 className="font-bold text-lg text-gray-900 group-hover:text-[#284bbe] transition-colors">OreanStudio</h4>
           <p className="text-xs font-mono text-[#284bbe] mb-3 mt-1">Next.js 16 • Express • PostgreSQL • GKE • Docker • Terraform</p>
           <p className="text-gray-600 text-sm leading-relaxed mb-4">
-            A social media automation platform with media transcoding, KEDA autoscaling, and edge edge-security gateways.
+            A social media automation platform with media transcoding, KEDA autoscaling, and edge security gateways.
           </p>
           <span className="text-xs font-semibold text-[#284bbe] group-hover:underline">View Summary →</span>
         </a>
