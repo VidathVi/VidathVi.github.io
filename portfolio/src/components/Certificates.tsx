@@ -13,6 +13,24 @@ interface Certificate {
 
 const certificatesData: Certificate[] = [
   {
+    id: 'datacamp-java-intro',
+    title: 'Introduction to Java',
+    issuer: 'DataCamp',
+    date: 'August 2026',
+    fileUrl: '/certificates/Java Introduction.pdf',
+    type: 'pdf',
+    skills: ['Java', 'Core Java', 'Programming'],
+  },
+  {
+    id: 'datacamp-java-oop',
+    title: 'Introduction to Object-Oriented Programming in Java',
+    issuer: 'DataCamp',
+    date: 'August 2026',
+    fileUrl: '/certificates/Java OOP Introduction.pdf',
+    type: 'pdf',
+    skills: ['Java', 'OOP', 'Classes & Objects'],
+  },
+  {
     id: 'bootdev-git',
     title: 'Learn Git',
     issuer: 'Boot.dev',
