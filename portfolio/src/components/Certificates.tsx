@@ -71,6 +71,14 @@ const certificatesData: Certificate[] = [
     skills: ['Python', 'OOP', 'Clean Code'],
   },
   {
+    id: 'bootdev-sql',
+    title: 'Learn SQL',
+    issuer: 'Boot.dev',
+    fileUrl: '/certificates/bootdev_certificate_SQL.png',
+    type: 'image',
+    skills: ['SQL', 'PostgreSQL', 'Relational Databases', 'Queries'],
+  },
+  {
     id: 'linkedin-react-ts',
     title: 'React: Using TypeScript',
     issuer: 'LinkedIn Learning',

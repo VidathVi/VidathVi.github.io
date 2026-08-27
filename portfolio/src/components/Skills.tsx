@@ -114,6 +114,9 @@ export default function Skills() {
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">Linux</span>
             </div>
             <div>
+              <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">SQL</span>
+            </div>
+            <div>
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">PostgreSQL</span>
             </div>
             <div>
