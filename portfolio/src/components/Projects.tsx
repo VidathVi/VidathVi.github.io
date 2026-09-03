@@ -43,6 +43,19 @@ export default function Projects() {
           <span className="text-xs font-semibold text-[#284bbe] group-hover:underline">View Summary →</span>
         </a>
 
+        {/* Modly Blender Extension */}
+        <a 
+          href="#project/modly-extension" 
+          className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow hover:border-[#284bbe]/30 group block text-left"
+        >
+          <h4 className="font-bold text-lg text-gray-900 group-hover:text-[#284bbe] transition-colors">Modly Blender Extension</h4>
+          <p className="text-xs font-mono text-[#284bbe] mb-3 mt-1">Python • Blender API • FastAPI</p>
+          <p className="text-gray-600 text-sm leading-relaxed mb-4">
+            A native Blender 5.2 extension that integrates local AI 3D generation directly into Blender's node graph, managing the backend as a hidden subprocess.
+          </p>
+          <span className="text-xs font-semibold text-[#284bbe] group-hover:underline">View Summary →</span>
+        </a>
+
       </div>
     </section>
   );

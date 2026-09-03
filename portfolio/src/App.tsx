@@ -9,6 +9,7 @@ import About from './components/About';
 import GeoEngine from './components/GeoEngine';
 import OreanStudio from './components/OreanStudio';
 import Arcade3D from './components/Arcade3D';
+import ModlyExtension from './components/ModlyExtension';
 
 function App() {
   const [currentProject, setCurrentProject] = useState<string | null>(null);
@@ -115,6 +116,8 @@ function App() {
         return <OreanStudio />;
       case '#project/3d-arcade':
         return <Arcade3D />;
+      case '#project/modly-extension':
+        return <ModlyExtension />;
       default:
         return (
           <div className="space-y-12">
