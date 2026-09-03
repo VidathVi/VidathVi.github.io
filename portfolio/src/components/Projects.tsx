@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <section id="projects" className="space-y-8 pt-16 border-t border-white/20">
       <h3 className="text-2xl font-bold text-white">Projects</h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="space-y-4">
         
         {/* OreanStudio */}
         <a 
