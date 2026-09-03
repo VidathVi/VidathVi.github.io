@@ -45,6 +45,16 @@ export default function Navbar({ currentProject }: NavbarProps) {
         >
           3D Arcade
         </a>
+        <a 
+          href="#project/modly-extension" 
+          className={`px-3 md:w-full text-center py-2 md:py-2.5 md:px-2 rounded-lg text-sm font-semibold transition-all ${
+            currentProject === '#project/modly-extension' 
+              ? 'bg-[#284bbe]/10 text-[#284bbe] border-b-2 md:border-b-0 md:border-l-4 border-[#284bbe] font-bold' 
+              : 'text-gray-600 hover:text-[#284bbe] hover:bg-gray-100'
+          }`}
+        >
+          Modly
+        </a>
       </div>
     );
   }
