@@ -48,16 +48,6 @@ export default function OreanStudio() {
             <img src="/redirect-icon.png" alt="Redirect" className="w-3.5 h-3.5 object-contain flex-shrink-0" />
           </a>
           <a 
-            href="https://orean.studio" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-sm text-blue-600 hover:underline flex items-center gap-1.5"
-          >
-            <img src="/orean-icon.png" alt="Orean" className="w-4 h-4 object-contain flex-shrink-0" />
-            <span>Orean Website</span>
-            <img src="/redirect-icon.png" alt="Redirect" className="w-3.5 h-3.5 object-contain flex-shrink-0" />
-          </a>
-          <a 
             href="#" 
             className="text-sm font-semibold text-gray-700 hover:text-gray-900 mt-2 flex items-center gap-1"
           >
