@@ -27,6 +27,9 @@ export default function Skills() {
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">JavaScript</span>
             </div>
             <div>
+              <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">C#</span>
+            </div>
+            <div>
               <span className="text-gray-400">  -</span> <span className="text-[#0451a5]">C</span>
             </div>
           </pre>
