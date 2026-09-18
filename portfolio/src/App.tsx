@@ -133,7 +133,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-[#284bbe] to-[#132560] text-white font-sans">
+    <div className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-[#2563eb] via-[#6b21a8] to-[#132560] text-white font-sans">
       
       {/* Navigation */}
       <div className="w-full fixed bottom-0 left-0 md:top-0 md:bottom-auto md:w-32 md:h-full bg-white z-50 md:border-r border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] md:shadow-none">
@@ -152,7 +152,7 @@ function App() {
         </div>
         
         {/* Footer */}
-        <footer className="bg-[#172d73] text-white py-8 px-6 md:py-12 md:px-8 text-sm">
+        <footer className="bg-[#12183e] text-white py-8 px-6 md:py-12 md:px-8 text-sm">
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-white/20 pb-8 mb-6">
             
             {/* Left Column: Copyright & Status */}
@@ -208,7 +208,7 @@ function App() {
               <div className="flex gap-2 items-center w-full md:justify-end">
                 <a 
                   href="mailto:hello@vidathdassanayake.me"
-                  className="bg-white text-[#284bbe] px-4 py-2 rounded-lg font-semibold hover:bg-white/90 transition-all text-xs shadow-xs text-center inline-block whitespace-nowrap"
+                  className="bg-white text-[#2563eb] px-4 py-2 rounded-lg font-semibold hover:bg-white/90 transition-all text-xs shadow-xs text-center inline-block whitespace-nowrap"
                 >
                   Contact Me: hello@vidathdassanayake.me
                 </a>
