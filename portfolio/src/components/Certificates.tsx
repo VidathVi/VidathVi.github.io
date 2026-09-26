@@ -14,7 +14,7 @@ interface Certificate {
 const certificatesData: Certificate[] = [
   {
     id: 'datacamp-java-intro',
-    title: 'Introduction to Java',
+    title: 'Java',
     issuer: 'DataCamp',
     date: 'August 2026',
     fileUrl: '/certificates/Java Introduction.pdf',
@@ -23,7 +23,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'datacamp-java-oop',
-    title: 'Introduction to Object-Oriented Programming in Java',
+    title: 'Object-Oriented Programming in Java',
     issuer: 'DataCamp',
     date: 'August 2026',
     fileUrl: '/certificates/Java OOP Introduction.pdf',
@@ -32,7 +32,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'bootdev-git',
-    title: 'Learn Git',
+    title: 'Git',
     issuer: 'Boot.dev',
     fileUrl: '/certificates/bootdev_git_certificate.png',
     type: 'image',
@@ -40,7 +40,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'bootdev-linux',
-    title: 'Learn Linux',
+    title: 'Linux',
     issuer: 'Boot.dev',
     fileUrl: '/certificates/bootdev_certificate_linux.png',
     type: 'image',
@@ -48,7 +48,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'bootdev-docker',
-    title: 'Learn Docker',
+    title: 'Docker',
     issuer: 'Boot.dev',
     fileUrl: '/certificates/bootdev_docker_certificate.png',
     type: 'image',
@@ -56,7 +56,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'bootdev-python',
-    title: 'Learn Python',
+    title: 'Python',
     issuer: 'Boot.dev',
     fileUrl: '/certificates/bootdev_certificate_python.png',
     type: 'image',
@@ -64,7 +64,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'bootdev-python-oop',
-    title: 'Learn Object Oriented Programming in Python',
+    title: 'Object Oriented Programming in Python',
     issuer: 'Boot.dev',
     fileUrl: '/certificates/bootdev_python_oop_certificate.png',
     type: 'image',
@@ -72,7 +72,7 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 'bootdev-sql',
-    title: 'Learn SQL',
+    title: 'SQL',
     issuer: 'Boot.dev',
     fileUrl: '/certificates/bootdev_certificate_SQL.png',
     type: 'image',
