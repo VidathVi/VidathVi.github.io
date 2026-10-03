@@ -19,9 +19,9 @@ export default function Bio() {
             <h1 className="text-5xl font-extrabold text-white tracking-tight">Vidath Dassanayake</h1>
           </div>
 
-          <h2 className="text-xl md:text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>I automate scaling and eliminate downtime</h2>
+          <h2 className="text-xl md:text-2xl text-blue-100 font-bold" style={{ letterSpacing: '0.012em' }}>Computer Science Undergraduate</h2>
           <p className="text-sm md:text-base text-white/80 leading-relaxed max-w-2xl">
-            DevOps & Cloud Engineer specializing in secure containerization, and zero-downtime CI/CD pipelines.
+            I'm a Computer Science undergraduate at IIT who enjoys building software and getting it running in the cloud. I've worked on full-stack projects, containers, and CI/CD pipelines, and I'm looking to keep learning on a real engineering team.
           </p>
 
           {/* Profile Picture — mobile only, shown below description */}
