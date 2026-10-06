@@ -60,8 +60,8 @@ export default function Bio() {
             <div className="flex gap-3 pt-2 items-center">
               <div className="flex items-center gap-1">
                 <a 
-                  href="/Vidath_Dassanayake_CV.pdf" 
-                  download="Vidath_Dassanayake_CV.pdf"
+                  href="/Vidath_Dassanayake_CV_Software_Engineering.pdf" 
+                  download="Vidath_Dassanayake_CV_Software_Engineering.pdf"
                   className="flex items-center gap-2 bg-white text-[#284bbe] px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors text-sm font-bold shadow-xs"
                 >
                   <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@ export default function Bio() {
 
                 <div className="relative group/tooltip flex items-center">
                   <a 
-                    href="/Vidath_Dassanayake_CV.pdf" 
+                    href="/Vidath_Dassanayake_CV_Software_Engineering.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white/60 hover:text-white p-1.5 transition-colors flex items-center justify-center"
