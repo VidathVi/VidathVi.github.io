@@ -181,6 +181,26 @@ const certificatesData: Certificate[] = [
     skills: ['React.js', 'TypeScript', 'Frontend'],
     category: 'programming',
   },
+  {
+    id: 'datacamp-intro-to-git',
+    title: 'Introduction to Git',
+    issuer: 'DataCamp',
+    issueDate: 'October 2026',
+    fileUrl: '/certificates/datacamp_intro_to_git.pdf',
+    type: 'pdf',
+    skills: ['Git', 'Version Control'],
+    category: 'cloud',
+  },
+  {
+    id: 'datacamp-intermediate-git',
+    title: 'Intermediate Git',
+    issuer: 'DataCamp',
+    issueDate: 'October 2026',
+    fileUrl: '/certificates/datacamp_intermediate_git.pdf',
+    type: 'pdf',
+    skills: ['Git', 'Version Control', 'GitHub'],
+    category: 'cloud',
+  },
 ];
 
 export default function Certificates() {
